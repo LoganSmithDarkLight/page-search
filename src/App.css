@@ -30,3 +30,68 @@
     transform: rotate(360deg);
   }
 }
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.SearchBar {
+  float: left;
+  width: 75%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 3px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.SearchBar:focus{
+  color: #00B4CC;
+}
+
+.FetchButton {
+  width: 20%;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.TriBlock {
+  width: 33%;
+  float: left;
+  text-align: left;
+}
+
+.Jobs {
+  background: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  outline: 3px dashed lightblue;
+}
+
+.Jobs:hover {
+  background: #ADD8E6;
+}
+
+.Filter {
+  background: lightyellow;
+  padding: 5px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
